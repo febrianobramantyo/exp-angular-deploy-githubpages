@@ -1,6 +1,14 @@
 # ExpApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
+
+Prerequisite :
+  1. angular-cli-ghpages <npm i angular-cli-ghpages -g>
+  
+Step:
+  1. Create github page setup on repository by go to Settings => Pages. On Source select branch main and docs folder.
+  2. In local repo, change angular.json file on outputPath field value by 'docs'.
+  3. Run command 'ng build -c production --base-href https://febrianobramantyo.github.io/exp-angular-deploy-githubpages/ && git add . && git commit -m "init commit" && git push origin main'.
+  4. Open app by got to https://febrianobramantyo.github.io/exp-angular-deploy-githubpages/
 
 ## Development server
 
