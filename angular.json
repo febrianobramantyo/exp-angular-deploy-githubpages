@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "docs",
+            "outputPath": "dist/exp-app",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -104,5 +104,6 @@
   },
   "cli": {
     "analytics": "4b5a1c6b-c1a7-4b01-98da-cbfcc1581406"
-  }
+  },
+  "defaultProject": "exp-app"
 }
